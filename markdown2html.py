@@ -14,6 +14,5 @@ if __name__ == "__main__":
     if not path.exists(argv[1]):
         stderr.write("Missing {}\n".format(argv[1]))
         exit(1)
-    else:
-        print()
-        exit(0)
+    print(end="")
+    exit(0)
