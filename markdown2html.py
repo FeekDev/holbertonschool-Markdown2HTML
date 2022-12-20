@@ -15,5 +15,5 @@ if __name__ == "__main__":
         stderr.write("Missing {}\n".format(argv[1]))
         exit(1)
     else:
-        print("")
+        print()
         exit(0)
